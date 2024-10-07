@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean name="e1" class="spring_model.Employee">
+<property name="id" value="1"/>
+<property name="name" value="Amit"/>
+<property name="gender" value="Male"></property>
+
+</bean>
+
+<bean name="e2" class="spring_model.Employee">
+	<constructor-arg name="id" value="02"/>
+	<constructor-arg name="name" value="Amit2"/>
+	<constructor-arg name="gender" value="malee"/>
+	
+</bean>
+
+<bean name="e3" class="spring_model.Employee">
+	
+</bean>
+</beans>
+
